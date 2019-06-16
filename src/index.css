@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+	box-sizing: border-box;
+	font: 18px/24px "Raleway", "Arial", "Helvetica Neue", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	color: #ebf0f5;
+	background: rgb(190, 189, 189);
+	letter-spacing: .05em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	
+	margin:0 auto;
+	background-size: cover;
+	height: auto;
+	padding:0px;
+    
+	background: linear-gradient(rgba(0,0,0,0.5),
+	rgba(0,0,0,0.5)),
+	url('https://parkingmatters.com/wp-content/uploads/Albion-Street-after-2.jpg');
+   
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:0px;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+	font-family: inherit;
+	font-weight: bold;
+	line-height: 1.6;
+	letter-spacing: .03em;
+	margin: 0 0 .5em;
+	color: inherit;
+}
+
+h1, .h1 {
+	font-size: 30px;
+}
+
+h2, .h2 {
+	font-size: 27px;
+}
+
+p {
+	margin: 0 0 .667em;
+}
+
+a {
+	color: #009de2;
+	text-decoration: none;
+	transition: opacity .3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	opacity: .7;
+}
+
+.stop-scroling {
+	overflow: hidden;
+}
+
+.page-wrapper {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+   
+}
+
+@media (min-width: 900px) {
+	html {
+	font: 24px/32px "Raleway", "Arial", "Helvetica Neue", sans-serif;
+	}
+
+	.page-wrapper {
+		max-width: 100vw;
+		margin: auto;
+	}
 }

@@ -1,0 +1,25 @@
+.main_banner {
+	background: url("http://eskipaper.com/images/car-backgrounds-1.jpg") center center no-repeat;
+	background-size: cover;
+	height: 250px;
+
+	display: flex;
+	justify-content: top;
+	align-items: flex-end;
+	flex-direction: column; 
+    transition: all 0.5s;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+    .main_banner {
+        min-height: 400px; 
+    }
+}
+
+@media (min-width: 900px) {
+    .main_banner {
+		min-height: 650px; 
+        margin-top: 70px;
+	}
+}

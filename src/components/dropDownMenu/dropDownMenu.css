@@ -1,0 +1,61 @@
+.drop {
+	width: 200px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #0c0105;
+	opacity: 0.9;
+    display: none;
+}
+
+ul { 
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #f6f1bf;
+	text-decoration: none;
+	transition: opacity .3s ease-in-out;
+	font-weight: 500;
+}
+
+.drop-menu li {
+	padding: 5px;
+    margin: 10px 0;
+    margin-top: 0;
+	font-size: 0.8rem;
+	line-height: 1.3rem;
+	transition: .2s ease-in-out; 
+}
+
+.menu li:hover .drop {
+	display: block;
+}
+
+.drop-menu li:hover {
+	background-color: #f3eebd;
+	color: #0c0105;
+	font-weight: 500;
+}
+.drop-menu li:hover a{
+	color: #0c0105;
+	font-weight: 600;
+}
+
+@media (min-width: 900px) {
+	.drop {
+		width: 300px;
+	}
+
+	.drop-menu {
+        padding: 20px 0;
+      
+	}
+
+	.drop-menu li {
+		font-size: 0.7rem;
+		line-height: 1.2rem;
+	}
+}
