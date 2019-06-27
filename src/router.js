@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom";
-import {Main} from './conteiners/Main/Main';
+import Main from './conteiners/Main/Main';
 import {WhatDoWeOffer} from './conteiners/WhatDoWeOffer/WhatDoWeOffer';
 import {RentalTerms} from './conteiners/RentalTerms/RentalTerms.js';
 import {Discount} from './conteiners/Discount/Discount';

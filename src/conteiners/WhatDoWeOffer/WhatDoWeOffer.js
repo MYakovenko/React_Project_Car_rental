@@ -1,7 +1,4 @@
-import React, {Component} from 'react';
-// import ReactDOM from 'react-dom';
-// import Button from '../components/button/button.js';
-// import Header from '../components/header/header'; 
+import React, {Component} from 'react'; 
 import "./whatDoWeOffer.css";
 import OfferItems from '../../components/whatDoWeOfferItem/whatDoWeOfferItem.js'
 import Banner from '../../components/mainBanner/mainBanner.js'
@@ -9,15 +6,8 @@ import Banner from '../../components/mainBanner/mainBanner.js'
 
 
 export class WhatDoWeOffer extends Component {
-  componentDidMount() {
-		console.log("this.props", this.props);
-		
-	}
 
   render() {
-
-    // const { store} = this.props;
-    // console.log(store)
 
     return (
       <div className = "page-wrapper">

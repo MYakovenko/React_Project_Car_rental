@@ -1,3 +1,3 @@
 import React from 'react'
 
-export default ({text, ...rest}) => <button {...rest}>{text}</button>;
+export default ({text, type = "button", disabled, ...rest}) => <button type = {type} disabled = {disabled} {...rest}>{text}</button>;

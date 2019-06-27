@@ -112,7 +112,7 @@ export default {
         {
           id: 12,
           title: "Chevrolet Corvette Z06 2LT Convertible",
-          ref: "https://inventory-cf.assets-cdk.com/3/8/2/19339296283.jpg",
+          ref: "https://static.carsdn.co/cldstatic/wp-content/uploads/img552534808-1505771887457.jpg",
           engine: "6.2 L Supercharged V8 650 HP",
           price: "110 USD",
           overview: "The Chevrolet Corvette ranks near the top of luxury sports car class thanks to its excellent combination of sporty performance, interior comfort, and livability. It’s a great car for weekend fun or the daily commute."
