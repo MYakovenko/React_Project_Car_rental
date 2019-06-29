@@ -50,11 +50,13 @@ select {
 }
 input[type="date"],
 input[type="time"] {
-    width: 40%;
+    text-align: left;
+    width: 45%;
     display: inline-block;
     margin-right: 5%;
     margin-bottom: 10px;
 }
+
 ::-ms-input-placeholder,
 ::-webkit-input-placeholder,
 ::-moz-input-placeholde{
@@ -86,6 +88,7 @@ label.date {
     font: 12px/14px "Raleway", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 600;
     margin-top: 10px;
+    margin-right: 5%;
 }
 .error {
     font: 12px/14px "Raleway", "Arial", "Helvetica Neue", sans-serif;
@@ -102,6 +105,7 @@ label.date {
     text-shadow: 1px 1px #33313b;
 }
 .button-wrapper {
+    margin-top: 10px;
     text-align: center;
 }
 input[type="button"],
@@ -192,7 +196,7 @@ input[type="submit"]:hover {
         font: 10px/12px "Raleway", "Arial", "Helvetica Neue", sans-serif;
     }
     label.date {
-        width: 50%;
+        width: 45%;
         font: 8px/10px "Raleway", "Arial", "Helvetica Neue", sans-serif;
         font-weight: 500;
         margin-top: 10px;

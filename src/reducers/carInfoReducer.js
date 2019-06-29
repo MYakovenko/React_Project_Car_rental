@@ -50,7 +50,7 @@ export default (state = initialValue, action) => {
     switch (action.type) {
       
         case types.SHOW_CAR_ELEMENT: {
-          document.body.classList.add("stop-scroling")
+          // document.body.classList.add("stop-scroling")
           // console.log("state", state)
           // console.log("SHOW_CAR_ELEMENT", action.payload)
           const item = state.carList.find(el => el.id === action.payload);
@@ -66,7 +66,7 @@ export default (state = initialValue, action) => {
         }
 
         case types.CANCEL_CAR_ELEMENT_INFO: {
-          document.body.classList.remove("stop-scroling")
+          // document.body.classList.remove("stop-scroling")
           return {
             ...state,
             showCarFlag: false,
@@ -75,7 +75,7 @@ export default (state = initialValue, action) => {
         }
 
         case types.SHOW_RENTAL_FORM: {
-          document.body.classList.add("stop-scroling")
+          // document.body.classList.add("stop-scroling")
           return {
             ...state,
             showRentFormFlag: true,
@@ -135,7 +135,7 @@ export default (state = initialValue, action) => {
         }
 
         case types.CLOSE_MESSAGE: {
-          document.body.classList.remove("stop-scroling")
+          // document.body.classList.remove("stop-scroling")
           return {
             ...state,
             showConfirmationMessageFlag: false

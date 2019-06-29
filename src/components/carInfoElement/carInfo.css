@@ -1,4 +1,4 @@
-.background {
+.background-info {
     position: fixed;
     width: 100%;
     background-color: #00000075;
@@ -21,7 +21,6 @@
     text-align: center;
     background-color: #f6f1bf;
     padding: 20px 10px;
-    /* margin: 10px; */
 }
 .info-conteiner {
     display: flex;
@@ -85,7 +84,7 @@
 }
 @media (max-width: 900px){
 
-    .background {
+    .background-info {
         align-items: flex-start; 
     }
 
@@ -106,7 +105,6 @@
 @media (max-width: 600px){
 
     .car-info-wrapper {
-        margin-top: 60px;
         width: 80%;
         }
     .overview, .additional-info {

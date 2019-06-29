@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import { connect } from "react-redux";
-import * as actions from "../../actions/carElementActions";
 import "./confirmationMessage.css";
 
-class ConfirmationMessage extends Component {
+export default class ConfirmationMessage extends Component {
     
     state = {messageTimer: null}
 
@@ -11,6 +9,7 @@ class ConfirmationMessage extends Component {
         const {closeMessage} = this.props
         const messageTimer = setTimeout( closeMessage, 3000);
         this.setState({ messageTimer });
+        document.body.classList.remove("stop-scroling")
     }
     
     componentWillUnmoumt() {
@@ -28,8 +27,3 @@ class ConfirmationMessage extends Component {
         )
     }
 };
-
-export default connect(
-    null,
-	actions
-)(ConfirmationMessage);

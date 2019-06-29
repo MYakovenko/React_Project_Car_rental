@@ -34,7 +34,8 @@ class Main extends Component {
       phoneValidationError,
       validForm,
       emailValidation,
-      phoneValidation
+      phoneValidation,
+      closeMessage
      } = this.props;
 
     return (
@@ -85,7 +86,7 @@ class Main extends Component {
             validForm = {validForm}
           />}
 
-          {showConfirmationMessageFlag && <ConfirmationMessage />}
+          {showConfirmationMessageFlag && <ConfirmationMessage closeMessage = {closeMessage}/>}
 
         </div>
       </div>
